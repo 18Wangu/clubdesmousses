@@ -4,8 +4,10 @@
 
 /* faire le caroussel, pour l'instant juste une image statique */
 .background-caroussel {
+    position: relative;
     background-image: url('/image-caroussel-accueil1.jpg');
     background-size: cover;
     height: 100vh;
     background-position: center;
 }
+
